@@ -1,0 +1,10 @@
+<h1>This website is about Cat(s).</h1>
+
+<div class="container">
+	{{#each cats}}
+		<div class="card">
+			<h4>{{this.name}}</h4>
+			<img src="{{this.url}}" alt="nicest cat" width="200px" />
+		</div>
+	{{/each}}
+</div>
